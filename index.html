@@ -1,0 +1,1028 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MIAU COSMÉTICOS — Skincare Premium para uma Pele Radiante</title>
+  <meta name="description"
+    content="Descubra a coleção de skincare de luxo da MIAU COSMÉTICOS. Fórmulas naturais e veganas criadas para uma pele radiante e luminosa. Compre séruns, hidratantes e mais.">
+  <meta name="theme-color" content="#C4907C">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/sections.css">
+  <link rel="stylesheet" href="css/animations.css">
+
+  <!-- Favicon (inline SVG) -->
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌸</text></svg>">
+</head>
+
+<body>
+
+  <!-- ============ 1. ANNOUNCEMENT BAR ============ -->
+  <div class="announcement-bar" id="announcement-bar">
+    <div class="announcement-bar__inner">
+      <span class="announcement-bar__item">Salões de beleza <span class="dot"></span></span>
+      <span class="announcement-bar__item">✨ Novos produtos — Coleção Radiance já disponível <span
+          class="dot"></span></span>
+      <span class="announcement-bar__item">Vendas Atacado e Varejo <span
+          class="dot"></span></span>
+      <!-- Duplicate for seamless loop -->
+      <span class="announcement-bar__item">Profissionais da beleza <span class="dot"></span></span>
+      <span class="announcement-bar__item">Quem deseja começar um negócio. <span
+          class="dot"></span></span>
+      <span class="announcement-bar__item">✨ Novos produtos — Coleção Radiance já disponível <span
+          class="dot"></span></span>
+    </div>
+    <button class="announcement-bar__close" id="announcement-close" aria-label="Fechar anúncio">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <line x1="18" y1="6" x2="6" y2="18"></line>
+        <line x1="6" y1="6" x2="18" y2="18"></line>
+      </svg>
+    </button>
+  </div>
+
+  <!-- ============ 2. HEADER / NAVIGATION ============ -->
+  <header class="site-header" id="site-header">
+    <div class="container">
+      <div class="site-header__inner">
+        <!-- Left Nav -->
+        <nav class="site-header__nav" id="nav-left">
+          <a href="#bestsellers" class="site-header__nav-link">Produtos</a>
+          <a href="#benefits" class="site-header__nav-link">Sobre</a>
+        </nav>
+
+        <!-- Logo -->
+        <a href="#" class="site-header__logo" id="logo">
+          MIAU <span>COSMÉTICOS</span>
+        </a>
+
+        <!-- Right Nav + Icons -->
+        <div class="site-header__icons">
+          <nav class="site-header__nav site-header__nav--right" id="nav-right">
+            <a href="https://www.instagram.com/oficial_miau" class="site-header__nav-link">Instagram</a>
+           <a href="https://wa.me/5531995920587?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20solicitar%20um%20orçamento." class="site-header__nav-link">Contato</a>
+          </nav>
+
+          <button class="site-header__icon-btn" id="search-btn" aria-label="Pesquisar">
+            <svg viewBox="0 0 24 24">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+          </button>
+
+          <!-- Mobile menu toggle -->
+          <button class="site-header__menu-toggle" id="menu-toggle" aria-label="Menu">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ 3. HERO SECTION ============ -->
+  <section class="hero" id="hero">
+    <div class="hero__bg">
+      <img src="banner.png" alt="Arranjo luxuoso de produtos de skincare" class="parallax-bg" id="hero-bg-img">
+    </div>
+    <div class="hero__overlay"></div>
+    <div class="container">
+      <div class="hero__content">
+        <h1 class="hero__title hero-enter hero-enter--delay-2" style="color: rgb(17, 17, 17);">
+          Realce a sua <span style="color: #d1639e;">Beleza</span> Natural
+        </h1>
+        <p class="hero__subtitle hero-enter hero-enter--delay-3" style="color: black;">
+          Fórmulas exclusivas, com ativos naturais e tecnologia avançada, para hidratar, nutrir e te iluminar todos os dias.
+        </p>
+        <style>
+          .btn-pink {
+            background-color: #d1639e !important;
+            color: white !important;
+            border: none;
+          }
+
+          .btn-outline-pink {
+            border-color: #d1639e !important;
+            color: #d1639e !important;
+          }
+
+          .btn-outline-pink:hover {
+            background-color: #fce4ec !important;
+            color: #d1639e !important;
+          }
+        </style>
+        <div class="hero__actions hero-enter hero-enter--delay-4">
+          <a href="#" class="btn btn--lg btn-pink">Eu Quero!</a>
+          <a href="#" class="btn btn--outline btn--lg btn-outline-pink">Saiba Mais</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 4. BRAND MARQUEE ============ -->
+  <section class="brand-marquee" id="brand-marquee">
+    <p class="brand-marquee__label">AQUI VOCÊ ENCONTRA</p>
+    <div class="brand-marquee__track">
+      <span class="brand-marquee__item">Valorização</span>
+      <span class="brand-marquee__item">Auto Estima</span>
+      <span class="brand-marquee__item">Beleza</span>
+      <span class="brand-marquee__item">Realce</span>
+      <span class="brand-marquee__item">Brilho</span>
+      <span class="brand-marquee__item">Mudança</span>
+      <span class="brand-marquee__item">Glamour</span>
+      <span class="brand-marquee__item">Preço Justo</span>
+      <!-- Duplicate for seamless loop -->
+      <span class="brand-marquee__item">Valorização</span>
+      <span class="brand-marquee__item">Auto Estima</span>
+      <span class="brand-marquee__item">Beleza</span>
+      <span class="brand-marquee__item">Realce</span>
+      <span class="brand-marquee__item">Brilho</span>
+      <span class="brand-marquee__item">Mudança</span>
+      <span class="brand-marquee__item">Glamour</span>
+      <span class="brand-marquee__item">Preço Justo</span>
+    </div>
+  </section>
+
+  <!-- ============ QUEM SOU EU ============ -->
+  <section class="section about-me" id="sobre">
+    <div class="container">
+      <div class="about-me__inner reveal">
+
+        <!-- Lado esquerdo: foto -->
+        <div class="about-me__image-wrap">
+          <div class="about-me__dots"></div>
+          <div class="about-me__image-glow"></div>
+          <div class="about-me__image-frame">
+            <img src="jennifer.jpeg" alt="Jennifer Vasconcelos" class="about-me__photo">
+          </div>
+          <div class="about-me__badge">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <span>Fundadora &amp; CEO</span>
+          </div>
+        </div>
+
+        <!-- Lado direito: conteúdo -->
+        <div class="about-me__content">
+          <span class="section-label">Quem sou eu</span>
+
+          <h2 class="about-me__name">
+            Jennifer
+            <em>Vasconcelos</em>
+          </h2>
+
+          <p class="about-me__lead">
+            Apaixonada por beleza desde sempre, criei a <strong>MIAU</strong> com um único propósito: 
+            levar produtos de skincare de alta performance para quem acredita que cuidar da pele é um ato de amor próprio.
+          </p>
+
+          <p class="about-me__text">
+            Com anos de experiência no universo da beleza e uma curadoria feita com muito carinho, 
+            cada produto da loja passou pelo meu filtro pessoal antes de chegar até você. 
+            Acredito que a rotina de skincare não precisa ser complicada — ela precisa ser <em>sua</em>.
+          </p>
+
+          <div class="about-me__quote">
+            <span class="about-me__quote-mark">"</span>
+            <p>Beleza de verdade começa com uma pele bem cuidada — e eu estou aqui para te ajudar nessa jornada.</p>
+          </div>
+
+          <div class="about-me__stats">
+            <div class="about-me__stat">
+              <span class="about-me__stat-number">+5k</span>
+              <span class="about-me__stat-label">Clientes felizes</span>
+            </div>
+            <div class="about-me__stat">
+              <span class="about-me__stat-number">100%</span>
+              <span class="about-me__stat-label">Curadoria própria</span>
+            </div>
+            <div class="about-me__stat">
+              <span class="about-me__stat-number">8 anos</span>
+              <span class="about-me__stat-label">No mercado beauty</span>
+            </div>
+          </div>
+
+          <div class="about-me__actions">
+            <a href="#collections" class="btn btn--primary about-me__cta">
+              Ver os produtos
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="https://www.instagram.com/oficial_miau" target="_blank" class="about-me__social">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+              @jennifervasconcelos
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============ 5. FEATURED COLLECTIONS ============ -->
+  <section class="section" id="collections">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Explorar</span>
+        <h2>Comprar por Coleção</h2>
+        <p>Coleções curadas e concebidas para cada etapa da tua rotina de skincare</p>
+      </div>
+
+      <div class="collections-grid collections-grid--featured reveal-stagger">
+        <!-- Collection 1 — Large -->
+        <div class="collection-card">
+          <img src="produto7.jpeg" alt="" class="collection-card__image">
+          <div class="collection-card__overlay">
+            <h3 class="collection-card__title">Coleção Radiance</h3>
+            <span class="collection-card__link">Comprar <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg></span>
+          </div>
+        </div>
+
+        <!-- Collection 2 -->
+        <div class="collection-card">
+          <img src="produto1.jpeg" alt="" class="collection-card__image">
+          <div class="collection-card__overlay">
+            <h3 class="collection-card__title">Essenciais Diários</h3>
+            <span class="collection-card__link">Comprar <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg></span>
+          </div>
+        </div>
+
+        <!-- Collection 3 -->
+        <div class="collection-card">
+          <img src="produto5.jpeg" alt="" class="collection-card__image">
+          <div class="collection-card__overlay">
+            <h3 class="collection-card__title">Ritual Noturno</h3>
+            <span class="collection-card__link">Comprar <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 6. PRODUCT BENEFITS ============ -->
+  <section class="section section--alt benefits-section" id="benefits">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Porquê a MIAU</span>
+        <h2>A Diferença MIAU</h2>
+      </div>
+
+      <div class="benefits-layout reveal">
+        <!-- Left Benefits -->
+        <div class="benefits-layout__left">
+          <div class="benefit-item">
+            <div class="benefit-item__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-van-icon lucide-van">
+                <path
+                  d="M13 6v5a1 1 0 0 0 1 1h6.102a1 1 0 0 1 .712.298l.898.91a1 1 0 0 1 .288.702V17a1 1 0 0 1-1 1h-3" />
+                <path d="M5 18H3a1 1 0 0 1-1-1V8a2 2 0 0 1 2-2h12c1.1 0 2.1.8 2.4 1.8l1.176 4.2" />
+                <path d="M9 18h5" />
+                <circle cx="16" cy="18" r="2" />
+                <circle cx="7" cy="18" r="2" />
+              </svg>
+            </div>
+            <h4 class="benefit-item__title">Envio para todo o Brasil</h4>
+            <p class="benefit-item__text">Entrega rápida e segura onde você estiver.</p>
+          </div>
+          <div class="benefit-item">
+            <div class="benefit-item__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-credit-card-icon lucide-credit-card">
+                <rect width="20" height="14" x="2" y="5" rx="2" />
+                <line x1="2" x2="22" y1="10" y2="10" />
+              </svg>
+            </div>
+            <h4 class="benefit-item__title">Facilidade de pagamento</h4>
+            <p class="benefit-item__text">Facilidade de pagamento com cartão de crédito e PIX</p>
+          </div>
+          <div class="benefit-item">
+            <div class="benefit-item__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-package-icon lucide-package">
+                <path
+                  d="M11 21.73a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73z" />
+                <path d="M12 22V12" />
+                <polyline points="3.29 7 12 12 20.71 7" />
+                <path d="m7.5 4.27 9 5.15" />
+              </svg>
+            </div>
+            <h4 class="benefit-item__title">Produtos originais</h4>
+            <p class="benefit-item__text">Produtos com excelente qualidade e originais</p>
+          </div>
+        </div>
+
+        <!-- Center Image -->
+        <div class="benefits-layout__center float-anim">
+          <img src="produto6.jpeg" alt="Sérum Signature MIAU Beauty" loading="lazy">
+        </div>
+
+        <!-- Right Benefits -->
+        <div class="benefits-layout__right">
+          <div class="benefit-item">
+            <div class="benefit-item__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-message-circle-more-icon lucide-message-circle-more">
+                <path
+                  d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719" />
+                <path d="M8 12h.01" />
+                <path d="M12 12h.01" />
+                <path d="M16 12h.01" />
+              </svg>
+            </div>
+            <h4 class="benefit-item__title">Atendimento personalizado</h4>
+            <p class="benefit-item__text">Suporte disponível todos os dias para tirar suas dúvidas</p>
+          </div>
+          <div class="benefit-item">
+            <div class="benefit-item__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-banknote-arrow-up-icon lucide-banknote-arrow-up">
+                <path d="M12 18H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5" />
+                <path d="M18 12h.01" />
+                <path d="M19 22v-6" />
+                <path d="m22 19-3-3-3 3" />
+                <path d="M6 12h.01" />
+                <circle cx="12" cy="12" r="2" />
+              </svg>
+            </div>
+            <h4 class="benefit-item__title">Excelente margem de revenda</h4>
+            <p class="benefit-item__text">Produtos com excelente margem de revenda para quem deseja empreender</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 7. BESTSELLER PRODUCTS CAROUSEL ============ -->
+  <section class="section" id="bestsellers">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Favoritos dos Clientes</span>
+        <h2>Mais Vendidos</h2>
+        <p>As nossas fórmulas preferidas, com milhares de avaliações de 5 estrelas</p>
+      </div>
+
+      <div class="products-carousel reveal">
+        <div class="products-carousel__track" id="product-carousel-track">
+
+          <!-- Product 1 -->
+          <div class="product-card">
+            <div class="product-card__image-wrapper">
+              <img src="vendap1.png" alt="Sérum Luminous Glow" class="product-card__image" loading="lazy">
+              <div class="product-card__badges">
+                <span class="badge badge--bestseller">Mais Vendido</span>
+              </div>
+              <div class="product-card__overlay">
+            <a href="https://wa.me/5531995920587?text=Olá!%20Gostaria%20de%20comprar%20o%20Kit%20Divine%20Hair."
+              class="product-card__quick-add"
+              target="_blank">Compre Já</a>
+          </div>
+            </div>
+            <div class="product-card__info">
+              <span class="product-card__category">KITS</span>
+              <h3 class="product-card__name">KIT DIVINE HAIR</h3>
+              <div class="product-card__rating">
+                <svg viewBox="0 0 24 24">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                  </polygon>
+                </svg>
+                <svg viewBox="0 0 24 24">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                  </polygon>
+                </svg>
+                <svg viewBox="0 0 24 24">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                  </polygon>
+                </svg>
+                <svg viewBox="0 0 24 24">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                  </polygon>
+                </svg>
+                <svg viewBox="0 0 24 24">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                  </polygon>
+                </svg>
+                <svg viewBox="0 0 24 24">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                  </polygon>
+                </svg>
+                <span class="product-card__rating-count">(2.847)</span>
+              </div>
+              <div class="product-card__price">
+                <span class="product-card__price-current">R$380.00</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 2 -->
+          <div class="product-card">
+            <div class="product-card__image-wrapper">
+              <img src="venda´p6.png" alt="Hidratante Velvet Hydra" class="product-card__image" loading="lazy">
+              <div class="product-card__badges">
+                <span class="badge badge--new">Novo</span>
+              </div>
+              <div class="product-card__overlay">
+            <a href="https://wa.me/5531995920587?text=Olá!%20Gostaria%20de%20comprar%20o%20Kit%20Sistema%20Repositor%20de%20Massa."
+              class="product-card__quick-add"
+              target="_blank">Compre Já</a>
+          </div>
+            </div>
+            <div class="product-card__info">
+              <span class="product-card__category">KITS</span>
+              <h3 class="product-card__name">KIT SISTEMA REPOSITOR DE MASSA - SRM</h3>
+              <div class="product-card__rating">
+                <svg viewBox="0 0 24 24">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                  </polygon>
+                </svg>
+                <svg viewBox="0 0 24 24">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                  </polygon>
+                </svg>
+                <svg viewBox="0 0 24 24">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                  </polygon>
+                </svg>
+                <svg viewBox="0 0 24 24">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                  </polygon>
+                </svg>
+                <svg viewBox="0 0 24 24">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                  </polygon>
+                </svg>
+                <span class="product-card__rating-count">(1.923)</span>
+              </div>
+              <div class="product-card__price">
+                <span class="product-card__price-current">$380.00</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 3 -->
+          <div class="product-card">
+            <div class="product-card__image-wrapper">
+              <img src="vendap3.png" alt="Limpeza Suave Gentle Petal" class="product-card__image" loading="lazy">
+              <div class="product-card__overlay">
+            <a href="https://wa.me/5531995920587?text=Olá!%20Gostaria%20de%20comprar%20o%20Kit%20Crono%20Beauty."
+              class="product-card__quick-add"
+              target="_blank">Compre Já</a>
+          </div>
+            </div>
+            <div class="product-card__info">
+              <span class="product-card__category">KITS</span>
+              <h3 class="product-card__name">KIT CRONO BEAUTY</h3>
+              <div class="product-card__rating">
+                <svg viewBox="0 0 24 24">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                  </polygon>
+                </svg>
+                <svg viewBox="0 0 24 24">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                  </polygon>
+                </svg>
+                <svg viewBox="0 0 24 24">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                  </polygon>
+                </svg>
+                <svg viewBox="0 0 24 24">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                  </polygon>
+                </svg>
+                <svg viewBox="0 0 24 24" style="fill: var(--color-primary-light);">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                  </polygon>
+                </svg>
+                <span class="product-card__rating-count">(1.456)</span>
+              </div>
+              <div class="product-card__price">
+                <span class="product-card__price-current">$400.00</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 4 -->
+          <div class="product-card">
+            <div class="product-card__image-wrapper">
+              <img src="vendap4.png" alt="Tónico de Pétalas de Rosa" class="product-card__image" loading="lazy">
+              <div class="product-card__badges">
+                <span class="badge badge--sale">-20%</span>
+              </div>
+              <div class="product-card__overlay">
+            <a href="https://wa.me/5531995920587?text=Olá!%20Gostaria%20de%20comprar%20o%20Kit%20Gold%20Therapy."
+              class="product-card__quick-add"
+              target="_blank">Compre Já</a>
+          </div>
+            </div>
+            <div class="product-card__info">
+              <span class="product-card__category">KITS</span>
+              <h3 class="product-card__name">KIT GOLD THERAPY</h3>
+              <div class="product-card__rating">
+                <svg viewBox="0 0 24 24">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                  </polygon>
+                </svg>
+                <svg viewBox="0 0 24 24">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                  </polygon>
+                </svg>
+                <svg viewBox="0 0 24 24">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                  </polygon>
+                </svg>
+                <svg viewBox="0 0 24 24">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                  </polygon>
+                </svg>
+                <svg viewBox="0 0 24 24">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                  </polygon>
+                </svg>
+                <span class="product-card__rating-count">(987)</span>
+              </div>
+              <div class="product-card__price">
+                <span class="product-card__price-current">$380.00</span>
+                <span class="product-card__price-compare">$430.00</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 5 -->
+          <div class="product-card">
+            <div class="product-card__image-wrapper">
+              <img src="vendap5.png" alt="Creme Iluminador para Olhos" class="product-card__image" loading="lazy">
+              <div class="product-card__overlay">
+            <a href="https://wa.me/5531995920587?text=Olá!%20Gostaria%20de%20comprar%20o%20Kit%20Whey%20Protein%20Capilar."
+              class="product-card__quick-add"
+              target="_blank">Compre Já</a>
+          </div>
+            </div>
+            <div class="product-card__info">
+              <span class="product-card__category">KITS</span>
+              <h3 class="product-card__name">KIT WHEY PROTEIN CAPILAR</h3>
+              <div class="product-card__rating">
+                <svg viewBox="0 0 24 24">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                  </polygon>
+                </svg>
+                <svg viewBox="0 0 24 24">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                  </polygon>
+                </svg>
+                <svg viewBox="0 0 24 24">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                  </polygon>
+                </svg>
+                <svg viewBox="0 0 24 24">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                  </polygon>
+                </svg>
+                <svg viewBox="0 0 24 24">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                  </polygon>
+                </svg>
+                <span class="product-card__rating-count">(763)</span>
+              </div>
+              <div class="product-card__price">
+                <span class="product-card__price-current">$380.00</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="products-carousel__controls">
+          <button class="products-carousel__btn" id="carousel-prev" aria-label="Produtos anteriores">
+            <svg viewBox="0 0 24 24">
+              <polyline points="15 18 9 12 15 6"></polyline>
+            </svg>
+          </button>
+          <button class="products-carousel__btn" id="carousel-next" aria-label="Próximos produtos">
+            <svg viewBox="0 0 24 24">
+              <polyline points="9 6 15 12 9 18"></polyline>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 8. IMAGE + TEXT SPLIT ============ -->
+  <section class="split-section" id="our-story">
+    <div class="split-section__image reveal--left">
+      <img src="vendaprincipal.png" alt="Produtos de skincare MIAU Beauty"
+        style="object-fit:contain; background: linear-gradient(135deg, #F5EDE8 0%, #E8D5CE 100%); padding: 3rem;"
+        loading="lazy">
+    </div>
+    <div class="split-section__content reveal--right">
+      <span class="split-section__label">A Nossa Filosofia</span>
+      <h2 class="split-section__title">Beleza Nascida da Natureza</h2>
+      <p class="split-section__text">
+        Na MIAU Beauty, acreditamos que uma pele radiante começa com ingredientes honestos. Cada fórmula é
+        cuidadosamente criada usando botânicos de origem ética, péptidos avançados e ativos vegetais — nunca químicos
+        agressivos.
+        <br><br>
+        A nossa missão é simples: criar skincare que funciona em harmonia com a biologia natural da tua pele,
+        proporcionando resultados visíveis nos quais podes confiar.
+      </p>
+      <a href="https://wa.me/5531995920587?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20solicitar%20um%20orçamento." class="btn btn--primary">Descobrir Mais</a>
+    </div>
+  </section>
+
+  <!-- ============ 9. BEFORE / AFTER SLIDER ============ -->
+  <section class="section" id="results">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Resultados Reais</span>
+        <h2>Vê a Transformação</h2>
+        <p>Ensaios clínicos mostram melhoria visível na textura e luminosidade da pele em apenas 4 semanas</p>
+      </div>
+
+      <div class="before-after reveal--scale" id="before-after-slider">
+        <!-- "After" image (base/background) -->
+        <img src="depois.png" alt="Depois de usar produtos MIAU Beauty" class="before-after__image"
+          style="background: linear-gradient(135deg, #E8F5E9, #dac8e6); object-fit: contain; padding: 2rem;">
+
+        <!-- "Before" overlay (clipped) -->
+        <div class="before-after__overlay" id="before-after-overlay">
+          <img src="antes.png" alt="Antes de usar produtos MIAU Beauty"
+            style="background: linear-gradient(135deg, #FFEBEE, #FFCDD2); object-fit: contain; padding: 2rem;">
+        </div>
+
+        <!-- Slider handle -->
+        <div class="before-after__handle" id="before-after-handle">
+          <div class="before-after__handle-knob">
+            <svg viewBox="0 0 24 24">
+              <polyline points="15 18 9 12 15 6"></polyline>
+              <polyline points="9 18 15 12 9 6" transform="translate(6,0)"></polyline>
+            </svg>
+          </div>
+        </div>
+
+        <!-- Labels -->
+        <span class="before-after__label before-after__label--before">Antes</span>
+        <span class="before-after__label before-after__label--after">Depois</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 10. TESTIMONIALS ============ -->
+  <section class="section section--alt" id="testimonials">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Cartas de Amor</span>
+        <h2>O Que Dizem os Nossos Clientes</h2>
+        <p>Junta-te a milhares de mulheres que transformaram a sua rotina de skincare</p>
+      </div>
+
+      <div class="testimonials-grid reveal-stagger">
+        <!-- Testimonial 1 -->
+        <div class="testimonial-card"
+          style="padding: 0; cursor: pointer; background: transparent; box-shadow: none; display: flex; align-items: center; justify-content: center;"
+          onclick="openModal('ps1.jpeg')">
+          <img src="ps1.jpeg" alt="Prova Social 1"
+            style="max-height: 300px; width: auto; max-width: 90%; border-radius: 16px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: transform 0.3s;"
+            onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+        </div>
+        <!-- Testimonial 2 -->
+        <div class="testimonial-card"
+          style="padding: 0; cursor: pointer; background: transparent; box-shadow: none; display: flex; align-items: center; justify-content: center;"
+          onclick="openModal('ps2.jpeg')">
+          <img src="ps2.jpeg" alt="Prova Social 2"
+            style="max-height: 300px; width: auto; max-width: 90%; border-radius: 16px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: transform 0.3s;"
+            onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+        </div>
+        <!-- Testimonial 3 -->
+        <div class="testimonial-card"
+          style="padding: 0; cursor: pointer; background: transparent; box-shadow: none; display: flex; align-items: center; justify-content: center;"
+          onclick="openModal('ps3.jpeg')">
+          <img src="ps3.jpeg" alt="Prova Social 3"
+            style="max-height: 300px; width: auto; max-width: 90%; border-radius: 16px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: transform 0.3s;"
+            onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal de Prova Social -->
+  <div id="ps-modal"
+    style="display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.85); z-index: 9999; justify-content: center; align-items: center;">
+    <span onclick="closeModal()"
+      style="position: absolute; top: 20px; right: 30px; font-size: 50px; color: white; cursor: pointer; line-height: 1;">&times;</span>
+    <img id="ps-modal-img" src=""
+      style="max-width: 90%; max-height: 90%; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
+  </div>
+  <script>
+    function openModal(src) {
+      document.getElementById('ps-modal-img').src = src;
+      document.getElementById('ps-modal').style.display = 'flex';
+      document.body.style.overflow = 'hidden'; // Evita scroll na página por trás
+    }
+    function closeModal() {
+      document.getElementById('ps-modal').style.display = 'none';
+      document.body.style.overflow = ''; // Restaura o scroll
+    }
+    // Fecha o modal ao clicar fora da imagem
+    document.getElementById('ps-modal').addEventListener('click', function (e) {
+      if (e.target === this) closeModal();
+    });
+  </script>
+  </div>
+  </section>
+
+  <!-- ============ 11. INSTAGRAM FEED ============ -->
+  <section class="section" id="instagram">
+    <div class="container" style="margin-bottom: var(--space-2xl);">
+      <div class="section-header reveal">
+        <span class="section-label">@miaubeauty</span>
+        <h2>Segue a Nossa Viagem</h2>
+        <p>Junta-te à nossa comunidade para inspiração diária, dicas e conteúdo exclusivo dos bastidores</p>
+      </div>
+    </div>
+    <div class="instagram-grid reveal-stagger">
+      <!-- 6 Instagram grid items with images -->
+      <a href="https://www.instagram.com/oficial_miau" target="_blank" class="instagram-grid__item">
+        <img src="fotoinsta1.jpeg" alt="Instagram 1">
+        <div class="instagram-grid__icon"><svg viewBox="0 0 24 24">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5" fill="none" stroke="currentColor" stroke-width="1.5">
+            </rect>
+            <circle cx="12" cy="12" r="5" fill="none" stroke="currentColor" stroke-width="1.5"></circle>
+            <circle cx="17.5" cy="6.5" r="1.2" fill="currentColor"></circle>
+          </svg></div>
+      </a>
+      <a href="https://www.instagram.com/oficial_miau" target="_blank" class="instagram-grid__item">
+        <img src="fotoinsta2.jpeg" alt="Instagram 2">
+        <div class="instagram-grid__icon"><svg viewBox="0 0 24 24">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5" fill="none" stroke="currentColor" stroke-width="1.5">
+            </rect>
+            <circle cx="12" cy="12" r="5" fill="none" stroke="currentColor" stroke-width="1.5"></circle>
+            <circle cx="17.5" cy="6.5" r="1.2" fill="currentColor"></circle>
+          </svg></div>
+      </a>
+      <a href="https://www.instagram.com/oficial_miau" target="_blank" class="instagram-grid__item">
+        <img src="fotoinsta3.jpeg" alt="Instagram 3">
+        <div class="instagram-grid__icon"><svg viewBox="0 0 24 24">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5" fill="none" stroke="currentColor" stroke-width="1.5">
+            </rect>
+            <circle cx="12" cy="12" r="5" fill="none" stroke="currentColor" stroke-width="1.5"></circle>
+            <circle cx="17.5" cy="6.5" r="1.2" fill="currentColor"></circle>
+          </svg></div>
+      </a>
+      <a href="https://www.instagram.com/oficial_miau" target="_blank" class="instagram-grid__item">
+        <img src="fotoinsta4.jpeg" alt="Instagram 4">
+        <div class="instagram-grid__icon"><svg viewBox="0 0 24 24">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5" fill="none" stroke="currentColor" stroke-width="1.5">
+            </rect>
+            <circle cx="12" cy="12" r="5" fill="none" stroke="currentColor" stroke-width="1.5"></circle>
+            <circle cx="17.5" cy="6.5" r="1.2" fill="currentColor"></circle>
+          </svg></div>
+      </a>
+      <a href="https://www.instagram.com/oficial_miau" target="_blank" class="instagram-grid__item">
+        <img src="fotoinsta5.jpeg" alt="Instagram 5">
+        <div class="instagram-grid__icon"><svg viewBox="0 0 24 24">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5" fill="none" stroke="currentColor" stroke-width="1.5">
+            </rect>
+            <circle cx="12" cy="12" r="5" fill="none" stroke="currentColor" stroke-width="1.5"></circle>
+            <circle cx="17.5" cy="6.5" r="1.2" fill="currentColor"></circle>
+          </svg></div>
+      </a>
+      <a href="https://www.instagram.com/oficial_miau" target="_blank" class="instagram-grid__item">
+        <img src="fotoinsta6.jpeg" alt="Instagram 6">
+        <div class="instagram-grid__icon"><svg viewBox="0 0 24 24">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5" fill="none" stroke="currentColor" stroke-width="1.5">
+            </rect>
+            <circle cx="12" cy="12" r="5" fill="none" stroke="currentColor" stroke-width="1.5"></circle>
+            <circle cx="17.5" cy="6.5" r="1.2" fill="currentColor"></circle>
+          </svg></div>
+      </a>
+    </div>
+  </section>
+
+  <!-- ============ 12. NEWSLETTER ============ -->
+  <section class="section newsletter" id="newsletter">
+    <div class="container">
+      <div class="newsletter__content reveal">
+        <span class="section-label" style="display:block; margin-bottom: var(--space-sm);">Fica Radiante</span>
+        <h2 class="newsletter__title">Junta-te à Família MIAU</h2>
+        <p class="newsletter__text">
+          Venda no atacado e varejo, clica aqui e faça o orçamento. Recebe ofertas exclusivas, dicas de skincare e novidades diretamente no seu whatsapp.
+        </p>
+        <form class="newsletter__form" id="newsletter-form">
+          <div class="input-group">
+           <input
+  type="tel"
+  placeholder="Insira seu telefone"
+  aria-label="Telefone"
+  id="newsletter-phone"
+  required
+>
+            <button type="submit" class="btn btn--primary">Enviar</button>
+          </div>
+        </form>
+        <p class="newsletter__disclaimer">Sem spam, nunca. Cancela a subscrição quando quiseres. Ao subscreveres,
+          concordas com a nossa Política de Privacidade.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 13. FOOTER ============ -->
+  <footer class="site-footer" id="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Brand Column -->
+        <div class="footer-brand">
+          <div class="footer-brand__logo">MIAU <span>Beauty</span></div>
+          <p class="footer-brand__text">
+            Skincare premium criado com os melhores ingredientes da natureza. Sem crueldade animal, vegano e concebido
+            para revelar o teu brilho natural.
+          </p>
+          <div class="social-icons">
+            <a href="https://www.instagram.com/oficial_miau/" class="social-icon" aria-label="Instagram">
+              <svg viewBox="0 0 24 24">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5" fill="none" stroke="currentColor"
+                  stroke-width="1.5"></rect>
+                <circle cx="12" cy="12" r="5" fill="none" stroke="currentColor" stroke-width="1.5"></circle>
+                <circle cx="17.5" cy="6.5" r="1.2" fill="currentColor"></circle>
+              </svg>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=61561630093467&ref=PROFILE_EDIT_xav_ig_profile_page_web#"
+              class="social-icon" aria-label="Facebook">
+              <svg viewBox="0 0 24 24">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" fill="none"
+                  stroke="currentColor" stroke-width="1.5"></path>
+              </svg>
+            </a>
+            <a href="https://wa.me/5531995920587?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20solicitar%20um%20orçamento." class="social-icon" aria-label="Whatsapp">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-phone-icon lucide-phone">
+                <path
+                  d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-column">
+          <h4 class="footer-column__title">Loja</h4>
+          <div class="footer-column__links">
+            <a href="#" class="footer-column__link">Todos os Produtos</a>
+            <a href="#" class="footer-column__link">Mais Vendidos</a>
+            <a href="#" class="footer-column__link">Novidades</a>
+            <a href="#" class="footer-column__link">Conjuntos &amp; Kits</a>
+            <a href="#" class="footer-column__link">Cartões Presente</a>
+          </div>
+        </div>
+
+        <!-- Customer Service -->
+        <div class="footer-column">
+          <h4 class="footer-column__title">Ajuda</h4>
+          <div class="footer-column__links">
+            <a href="#" class="footer-column__link">Contacta-nos</a>
+            <a href="#" class="footer-column__link">Envio &amp; Devoluções</a>
+            <a href="#" class="footer-column__link">FAQ</a>
+            <a href="#" class="footer-column__link">Rastrear Encomenda</a>
+            <a href="#" class="footer-column__link">Guia de Tamanhos</a>
+          </div>
+        </div>
+
+        <!-- About -->
+        <div class="footer-column">
+          <h4 class="footer-column__title">Sobre</h4>
+          <div class="footer-column__links">
+            <a href="#" class="footer-column__link">A Nossa História</a>
+            <a href="#" class="footer-column__link">Ingredientes</a>
+            <a href="#" class="footer-column__link">Sustentabilidade</a>
+            <a href="#" class="footer-column__link">R</a>
+            <a href="#" class="footer-column__link">Carreiras</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <p class="footer-bottom__copy">&copy; 2026 MIAU Beauty. Todos os direitos reservados.</p>
+        <div class="footer-bottom__payments">
+          <!-- Payment icons as simple SVG shapes -->
+          <svg viewBox="0 0 38 24">
+            <rect width="38" height="24" rx="4" fill="rgba(255,255,255,0.1)" /><text x="19" y="15" text-anchor="middle"
+              fill="rgba(255,255,255,0.5)" font-size="7" font-family="sans-serif">VISA</text>
+          </svg>
+          <svg viewBox="0 0 38 24">
+            <rect width="38" height="24" rx="4" fill="rgba(255,255,255,0.1)" /><text x="19" y="15" text-anchor="middle"
+              fill="rgba(255,255,255,0.5)" font-size="6" font-family="sans-serif">MC</text>
+          </svg>
+          <svg viewBox="0 0 38 24">
+            <rect width="38" height="24" rx="4" fill="rgba(255,255,255,0.1)" /><text x="19" y="15" text-anchor="middle"
+              fill="rgba(255,255,255,0.5)" font-size="6" font-family="sans-serif">AMEX</text>
+          </svg>
+          <svg viewBox="0 0 38 24">
+            <rect width="38" height="24" rx="4" fill="rgba(255,255,255,0.1)" /><text x="19" y="15" text-anchor="middle"
+              fill="rgba(255,255,255,0.5)" font-size="5.5" font-family="sans-serif">PAYPAL</text>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============ BACK TO TOP ============ -->
+  <button class="back-to-top" id="back-to-top" aria-label="Voltar ao topo">
+    <svg viewBox="0 0 24 24">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <!-- ============ SEARCH MODAL ============ -->
+  <div id="search-modal" style="display:none; position:fixed; inset:0; z-index:10000; background:rgba(0,0,0,0.6); backdrop-filter:blur(8px); align-items:flex-start; justify-content:center; padding-top:80px;">
+    <div style="background:#fff; border-radius:20px; width:90%; max-width:600px; box-shadow:0 30px 80px rgba(0,0,0,0.3); overflow:hidden; animation:searchSlideIn 0.3s cubic-bezier(0.16,1,0.3,1);">
+      <style>
+        @keyframes searchSlideIn {
+          from { opacity:0; transform:translateY(-30px) scale(0.95); }
+          to   { opacity:1; transform:translateY(0) scale(1); }
+        }
+        .search-input-wrap { display:flex; align-items:center; padding:20px 24px; border-bottom:1px solid #f0e8e8; gap:14px; }
+        .search-input-wrap svg { flex-shrink:0; width:22px; height:22px; stroke:#d1639e; fill:none; stroke-width:2; }
+        #search-modal-input { flex:1; border:none; outline:none; font-size:1.1rem; font-family:'Outfit',sans-serif; color:#2C2420; background:transparent; }
+        #search-modal-input::placeholder { color:#c0a8a0; }
+        .search-close-btn { background:none; border:none; cursor:pointer; color:#999; font-size:28px; line-height:1; padding:0; }
+        .search-close-btn:hover { color:#d1639e; }
+        #search-results { max-height:420px; overflow-y:auto; padding:12px; }
+        .search-result-item { display:flex; align-items:center; gap:16px; padding:12px; border-radius:12px; cursor:pointer; transition:background 0.2s; text-decoration:none; }
+        .search-result-item:hover { background:#fdf0f5; }
+        .search-result-img { width:64px; height:64px; border-radius:10px; object-fit:cover; background:#f5ede8; flex-shrink:0; }
+        .search-result-info { flex:1; }
+        .search-result-name { font-weight:600; color:#2C2420; font-size:0.95rem; margin-bottom:4px; }
+        .search-result-cat  { color:#d1639e; font-size:0.78rem; text-transform:uppercase; letter-spacing:0.05em; margin-bottom:2px; }
+        .search-result-price { color:#6B4F47; font-size:0.9rem; }
+        .search-no-results { text-align:center; padding:40px 20px; color:#c0a8a0; font-size:0.95rem; }
+        .search-hint { padding:16px 24px 8px; color:#c0a8a0; font-size:0.8rem; }
+      </style>
+
+      <!-- Header do modal -->
+      <div class="search-input-wrap">
+        <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+        <input id="search-modal-input" type="text" placeholder="Pesquisar produtos..." autocomplete="off" autofocus>
+        <button class="search-close-btn" onclick="closeSearchModal()">&#x2715;</button>
+      </div>
+
+      <!-- Dica inicial -->
+      <p class="search-hint" id="search-hint">Comece a digitar para ver os produtos...</p>
+
+      <!-- Resultados -->
+      <div id="search-results"></div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/main.js?v=5"></script>
+  <script src="js/carousel.js?v=2"></script>
+  <script src="js/slider.js?v=2"></script>
+</body>
+
+</html>
